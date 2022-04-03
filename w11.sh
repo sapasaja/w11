@@ -7,7 +7,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/nu
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p ">> bismillah >>: " CRP 
 ./ngrok authtoken $CRP &>/dev/null &
-nohup ./ngrok tcp 3389 &>/dev/null &
+nohup ./ngrok tcp 30889 &>/dev/null &
 echo "############################################################################################"
 sudo apt install -y qemu-kvm > /dev/null 2>&1
 echo "#..%%%%...%%..%%..%%..%%...%%%%.....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%%%%....%%%%..#"
